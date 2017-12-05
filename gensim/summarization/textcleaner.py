@@ -13,7 +13,7 @@ import logging
 logger = logging.getLogger('summa.preprocessing.cleaner')
 
 try:
-    from pattern.en import tag
+    from pattern.es import tag
     logger.info("'pattern' package found; tag filters are available for English")
     HAS_PATTERN = True
 except ImportError:
